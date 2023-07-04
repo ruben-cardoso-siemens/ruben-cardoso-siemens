@@ -1,16 +1,16 @@
 .home2-container {
   width: 100%;
   display: flex;
-  overflow: auto;
+  overflow: visible;
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
 }
 .home2-header {
-  width: var(--dl-size-size-maxwidth);
-  height: 109px;
+  width: 80%;
+  height: 140px;
   display: flex;
-  max-width: var(--dl-size-size-maxwidth);
+  max-width: 70%;
   align-items: center;
   padding-top: var(--dl-space-space-twounits);
   border-color: rgba(83, 152, 222, 0.7);
@@ -24,8 +24,8 @@
   background-color: rgba(83, 165, 255, 0.7);
 }
 .home2-image {
-  width: 338px;
-  height: 81px;
+  width: 430px;
+  height: 110px;
   object-fit: cover;
 }
 .home2-button {
